@@ -40,9 +40,9 @@
 
         public static double GetEllipseArea(double r1,double r2)
         {
-            double areae;
-            areae = r1 * r2 * System.Math.PI;
-            return areae;
+            double areaellip;
+            areaellip = r1 * r2 * System.Math.PI;
+            return areaellip;
 
         }
 
