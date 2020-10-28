@@ -6,6 +6,7 @@ namespace ClaseVisualStudio
     {
         static void Main(string[] args)
         {
+            /*
             int sol;
             sol = Utils.GetMinvalue(10, 7);
 
@@ -22,6 +23,21 @@ namespace ClaseVisualStudio
             Ejercicios.Ejercicio5();
             Ejercicios.Ejercicio61();
             Ejercicios.Ejercicio6();
+            */
+            int result = EjerciciosExamen.Add(1,2);
+            System.Console.WriteLine(result);
+
+            double result2 = EjerciciosExamen.Ejercicio2(5, 8);
+            System.Console.WriteLine(result2);
+
+            double result3 = EjerciciosExamen.Ejercicio3(9, 4);
+            System.Console.WriteLine(result3);
+
+            string result4 = EjerciciosExamen.Ejercicio4("patatas", "con", "ketchup");
+            System.Console.WriteLine(result4);
+
+            bool result5 = EjerciciosExamen.Ejercicio5(9, 7);
+            System.Console.WriteLine(result5);
 
         }
 
