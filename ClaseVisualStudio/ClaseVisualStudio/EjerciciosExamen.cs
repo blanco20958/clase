@@ -4,7 +4,7 @@ namespace ClaseVisualStudio
 {
     class EjerciciosExamen
     {
-        public static int Add ( int a, int b )
+        public static int Add(int a, int b)
         {
             /*
              int c;
@@ -17,7 +17,7 @@ namespace ClaseVisualStudio
 
         }
 
-        public static double Ejercicio2 (double a, double b)
+        public static double Ejercicio2(double a, double b)
         {
             return a - b;
         }
@@ -61,6 +61,42 @@ namespace ClaseVisualStudio
                 */
             return a < b;
         }
+        public static int Ejercicio6(int a, int b)
+        {
+            if (a < b)
+                return -1;
+            else if (a>b)
+                return 1;
+            else 
+                return 0;
+            /*
+             if (a<b)
+                return -1;
+             if (a<b)
+               return 1;
+             return 0;
+             */
+        }
+        public static double Ejercicio7(double a, double b)
+        {
+            if (a < b)
+
+                return b * b;
+
+            else
+
+                return 2.0*a + b;
+            
+
+        }
+
+
+
+
+
+
+
+
 
 
     }

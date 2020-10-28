@@ -39,6 +39,9 @@ namespace ClaseVisualStudio
             bool result5 = EjerciciosExamen.Ejercicio5(9, 7);
             System.Console.WriteLine(result5);
 
+            int result6 = EjerciciosExamen.Ejercicio6(4, 8);
+            System.Console.WriteLine(result6);
+
         }
 
       
