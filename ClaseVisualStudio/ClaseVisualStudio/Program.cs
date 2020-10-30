@@ -42,6 +42,23 @@ namespace ClaseVisualStudio
             int result6 = EjerciciosExamen.Ejercicio6(4, 8);
             System.Console.WriteLine(result6);
 
+            EjerciciosExamen.Ejercicio8(0);
+
+            EjerciciosExamen.Ejercicio9(20);
+
+            EjerciciosExamen.Ejercicio10(30);
+
+            EjerciciosExamen.Ejercicio12(10);
+
+            System.Console.WriteLine();
+
+            EjerciciosExamen.Ejercicio13(3);
+
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio14(10);
+
+
+
         }
 
       

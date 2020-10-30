@@ -65,14 +65,14 @@ namespace ClaseVisualStudio
         {
             if (a < b)
                 return -1;
-            else if (a>b)
+            else if (a > b)
                 return 1;
-            else 
+            else
                 return 0;
             /*
              if (a<b)
                 return -1;
-             if (a<b)
+             if (a>b)
                return 1;
              return 0;
              */
@@ -85,11 +85,110 @@ namespace ClaseVisualStudio
 
             else
 
-                return 2.0*a + b;
-            
+                return 2.0 * a + b;
+
+
+        }
+        public static void Ejercicio8(int code)
+        {
+            switch (code)
+            {
+                case 0:
+                    System.Console.WriteLine("Error grave");
+                    break;
+                case 1:
+                    System.Console.WriteLine("Error moderado");
+                    break;
+                case 2:
+                    System.Console.WriteLine("Error leve");
+                    break;
+                default:
+                    System.Console.WriteLine("Error desconocido");
+                    break;
+
+
+            }
+        }
+        public static void Ejercicio9(int n)
+        {
+            int i = 0;
+            while (i <= n)
+            {
+                System.Console.Write(i + ",");
+                i += 3;
+
+            }
+
+
+
+        }
+        public static void Ejercicio10(int n)
+        {
+            for (int i = 0; i <= n; i++)
+
+                System.Console.Write(i + ",");
 
         }
 
+        public static void Ejercicio11(int n)
+        {
+            for (int i = 0; i <= n; i++)
+            {
+                System.Console.Write(i);
+                if (i < n)
+                    System.Console.Write(",");
+            }
+
+            /*
+              for (int i=0; i<n; i++)
+                  System.Console.Write(i+",");
+              scw (n);  
+             */
+
+        }
+        public static void Ejercicio12(int n)
+        {
+            for (int i = 0; i < n; i++)
+                System.Console.Write("*");
+
+        }
+        public static void Ejercicio13(int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 2 == 0)
+                    System.Console.Write("+");
+                else
+                    System.Console.Write("*");
+
+            }
+
+
+        }
+        public static void Ejercicio14(int n)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                int rest = i % 4;
+                switch (rest)
+                {
+                    case 0:
+                        System.Console.Write("-");
+                        break;
+
+                    case 1:
+                        System.Console.Write("+");
+                        break;
+
+                    case 2:
+                        System.Console.Write("*");
+                        break;
+                    case 3:
+                        System.Console.Write("/");
+                        break;
+                }
+
+            }
 
 
 
@@ -99,5 +198,8 @@ namespace ClaseVisualStudio
 
 
 
-    }
+
+
+
+    }   }
 }
