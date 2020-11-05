@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace ClaseVisualStudio
 {
@@ -24,6 +25,8 @@ namespace ClaseVisualStudio
             Ejercicios.Ejercicio61();
             Ejercicios.Ejercicio6();
             */
+
+            /*
             int result = EjerciciosExamen.Add(1,2);
             System.Console.WriteLine(result);
 
@@ -57,14 +60,46 @@ namespace ClaseVisualStudio
             System.Console.WriteLine();
             EjerciciosExamen.Ejercicio14(10);
 
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio15(4);
 
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio16(4);
+
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio17(4);
+
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio18(4);
+
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio19(4);
+
+            System.Console.WriteLine();
+            EjerciciosExamen.Ejercicio20(5);
+            */
+
+            /*
+            while (true)
+            {
+                for (int i = 0; i < 20; i++)
+                {
+                    EjerciciosExamen.Ejercicio20(i);
+                    Thread.Sleep(500);
+                    System.Console.Clear();
+                }
+            }
+            */
+
+
+            EjerciciosExamen.Ejercicio21(5);
 
         }
 
-      
-        
-            
 
-        
+
+
+
+
     }
 }

@@ -189,6 +189,136 @@ namespace ClaseVisualStudio
                 }
 
             }
+        }
+        public static void Ejercicio15(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                for (int c=0; c<n; c++)
+                    System.Console.Write("*");
+                System.Console.WriteLine();
+
+            }
+
+        }
+        public static void Ejercicio16(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    if (f % 2 == 0)
+                        System.Console.Write("*");
+                    else
+                        System.Console.Write("+");
+
+                }
+                System.Console.WriteLine();
+
+            }
+
+
+        }
+        public static void Ejercicio17(int n)
+        {
+            for (int f=0; f<n; f++)
+            {
+                for (int c=0; c<n; c++)
+                {
+                    int suma = f + c;
+                    if (suma % 2 == 0) 
+                        System.Console.Write("*");
+                    else
+                        System.Console.Write("+");
+
+                }
+                System.Console.WriteLine();
+
+
+            }
+
+
+
+
+
+
+        }
+        public static void Ejercicio18(int n)
+        {
+            for (int f= 0; f<n; f++)
+            {
+                for (int c =0; c<=f; c++)
+                
+                    System.Console.Write("*");
+
+                
+                System.Console.WriteLine();
+
+            }
+
+
+
+        }
+        public static void Ejercicio19(int n)
+        {
+            for (int f=0; f<n; f++)
+            {
+                int nasteriscos = f + 1;
+                int nespacios = n - f - 1;
+
+                for (int c = 0; c < nespacios; c++)
+                    System.Console.Write(" ");
+                for (int c = 0; c < nasteriscos; c++)
+                    System.Console.Write("*");
+
+                System.Console.WriteLine();
+            }
+
+
+        }
+        public static void Ejercicio20(int n)
+        {
+            for (int f =0; f<n;f++)
+            {
+                int espacios1 = n - f - 1;
+                int espacios2 = f * 2;
+
+                for (int c = 0; c < espacios1; c++)
+                    System.Console.Write(" ");
+
+                System.Console.Write("*");
+
+                for (int c = 0; c < espacios2; c++)
+                    System.Console.Write(" ");
+
+                System.Console.Write("*");
+
+                System.Console.WriteLine();
+
+            }
+        }
+        public static void Ejercicio21(int n)
+        {
+            for (int f =0; f<n; f++)
+            {
+                int espacios1 = f;
+                int espacios2 = (n - f - 1) * 2;
+
+                for (int c = 0; c < espacios1; c++)
+                    System.Console.Write(" ");
+
+                System.Console.Write("*");
+
+                for (int c = 0; c < espacios2; c++)
+                    System.Console.Write(" ");
+
+                System.Console.Write("*");
+
+                System.Console.WriteLine();
+
+            }
+
+        }
 
 
 
@@ -201,5 +331,12 @@ namespace ClaseVisualStudio
 
 
 
-    }   }
+
+
+
+
+
+
+    }
+
 }
