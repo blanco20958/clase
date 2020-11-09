@@ -319,6 +319,81 @@ namespace ClaseVisualStudio
             }
 
         }
+        public static void Ejercicio22 ()
+        {
+            for (int f=0; f<10; f++)
+            {
+                for (int c = 0; c <15; c++)
+                {
+                    if (0 <= c && c <= 5 && 0 <= f && f <= 2)
+                    {
+                        int suma = f + c;
+                        if (suma % 2 == 0)
+                            System.Console.Write("+");
+                        else
+                            System.Console.Write(" ");
+
+                        
+                    }
+                    else
+                        System.Console.Write("-");
+
+
+                }
+                System.Console.WriteLine(); 
+                
+                            
+            }
+
+
+
+
+        }
+        public static void Ejercicio23(int n)
+        {
+            Ejercicio20(n);
+            Ejercicio21(n);
+
+        }
+        public static void Ejercicio24()
+        {
+            while (true)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    Ejercicio23(i);
+                    System.Threading.Thread.Sleep(100);
+                    System.Console.Clear();
+
+
+                }
+
+        }   }
+        public static void Ejercicio25()
+        {
+           for (int f=0; f<15; f++)
+           {
+                for (int c=0; c<70; c++)
+                {
+                    if (f == 0 || c==69)
+                        System.Console.Write("*");
+                    
+
+
+
+
+                }
+
+
+
+
+
+
+
+           }
+
+
+        }
 
 
 
@@ -332,11 +407,6 @@ namespace ClaseVisualStudio
 
 
 
+}   }   
 
-
-
-
-
-    }
-
-}
+    

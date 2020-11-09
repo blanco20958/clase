@@ -79,21 +79,24 @@ namespace ClaseVisualStudio
             EjerciciosExamen.Ejercicio20(5);
             */
 
-            /*
-            while (true)
-            {
-                for (int i = 0; i < 20; i++)
-                {
-                    EjerciciosExamen.Ejercicio20(i);
-                    Thread.Sleep(500);
-                    System.Console.Clear();
-                }
-            }
-            */
 
 
-            EjerciciosExamen.Ejercicio21(5);
 
+
+
+            /*  EjerciciosExamen.Ejercicio21(5);
+             System.Console.WriteLine();
+
+             EjerciciosExamen.Ejercicio22();
+             System.Console.WriteLine();
+
+             EjerciciosExamen.Ejercicio23(10);
+             */
+
+           /* EjerciciosExamen.Ejercicio24();
+            System.Console.WriteLine(); */
+
+            EjerciciosExamen.Ejercicio25();
         }
 
 
