@@ -93,10 +93,15 @@ namespace ClaseVisualStudio
              EjerciciosExamen.Ejercicio23(10);
              */
 
-           /* EjerciciosExamen.Ejercicio24();
-            System.Console.WriteLine(); */
+            /* EjerciciosExamen.Ejercicio24();
+             System.Console.WriteLine(); */
 
+           
             EjerciciosExamen.Ejercicio25();
+            System.Console.WriteLine();
+            
+            
+            
         }
 
 

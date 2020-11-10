@@ -371,19 +371,29 @@ namespace ClaseVisualStudio
         }   }
         public static void Ejercicio25()
         {
-           for (int f=0; f<15; f++)
-           {
+            for (int f=0; f<15; f++)
+            {
                 for (int c=0; c<70; c++)
                 {
-                    if (f == 0 || c==69)
+                   
+                    
+
+                    if (f == 0 || f == 14 || c == 69)
                         System.Console.Write("*");
+                   
+                    else if (GetVector2DLength(35, 7, c, f) < 35)
+                       
+
+                    System.Console.Write("o");
+
                     
 
 
 
 
-                }
 
+                }
+                System.Console.WriteLine();
 
 
 
@@ -394,10 +404,15 @@ namespace ClaseVisualStudio
 
 
         }
+        public static double GetVector2DLength(double x1, double x2, double y1, double y2)
+        {
+            double vx= x2-x1;
+            double vy=y2-y1;
+            double result = System.Math.Sqrt(vx * vx + vy * vy);
+            return result;
+            
 
-
-
-
+        }
 
 
 
