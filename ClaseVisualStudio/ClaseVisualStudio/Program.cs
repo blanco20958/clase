@@ -97,9 +97,9 @@ namespace ClaseVisualStudio
              System.Console.WriteLine(); */
 
            
-            EjerciciosExamen.Ejercicio25();
+            EjerciciosExamen.Ejercicio24(20);
             System.Console.WriteLine();
-            
+
             
             
         }

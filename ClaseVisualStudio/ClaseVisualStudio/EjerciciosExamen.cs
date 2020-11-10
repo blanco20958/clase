@@ -304,7 +304,7 @@ namespace ClaseVisualStudio
                 int espacios1 = f;
                 int espacios2 = (n - f - 1) * 2;
 
-                for (int c = 0; c < espacios1; c++)
+                for (int c = 0; c < espacios1; c++) 
                     System.Console.Write(" ");
 
                 System.Console.Write("*");
@@ -333,10 +333,16 @@ namespace ClaseVisualStudio
                         else
                             System.Console.Write(" ");
 
-                        
+
                     }
-                    else
-                        System.Console.Write("-");
+                    else if (6 <= c && c <= 14 && 0 <= f && f <= 1)
+                        System.Console.Write("*");
+
+                    else if (0 <= c && c <= 14 && 4 <= f && f <= 5)
+                        System.Console.Write("*");
+
+                    else if (0 <= c && c <= 14 && 8 <= f && f <= 9)
+                        System.Console.Write("*");
 
 
                 }
@@ -355,11 +361,11 @@ namespace ClaseVisualStudio
             Ejercicio21(n);
 
         }
-        public static void Ejercicio24()
+        public static void Ejercicio24(int n)
         {
             while (true)
             {
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < n; i++)
                 {
                     Ejercicio23(i);
                     System.Threading.Thread.Sleep(100);
@@ -381,11 +387,9 @@ namespace ClaseVisualStudio
                     if (f == 0 || f == 14 || c == 69)
                         System.Console.Write("*");
                    
-                    else if (GetVector2DLength(35, 7, c, f) < 35)
-                       
-
-                    System.Console.Write("o");
-
+                   else if (GetVector2DLength(35,7,c,f)<5)
+                       System.Console.Write("o");
+                    
                     
 
 
@@ -408,7 +412,7 @@ namespace ClaseVisualStudio
         {
             double vx= x2-x1;
             double vy=y2-y1;
-            double result = System.Math.Sqrt(vx * vx + vy * vy);
+            double result = System.Math.Sqrt(vx*vx+vy*vy);
             return result;
             
 
