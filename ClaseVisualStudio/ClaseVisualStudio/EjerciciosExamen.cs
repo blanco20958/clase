@@ -361,11 +361,11 @@ namespace ClaseVisualStudio
             Ejercicio21(n);
 
         }
-        public static void Ejercicio24(int n)
+        public static void Ejercicio24()
         {
             while (true)
             {
-                for (int i = 0; i < n; i++)
+                for (int i = 0; i < 10 ; i++)
                 {
                     Ejercicio23(i);
                     System.Threading.Thread.Sleep(100);
@@ -387,7 +387,7 @@ namespace ClaseVisualStudio
                     if (f == 0 || f == 14 || c == 69)
                         System.Console.Write("*");
                    
-                   else if (GetVector2DLength(35,7,c,f)<5)
+                   else if (GetVector2DLength(35,7,c,f))
                        System.Console.Write("o");
                     
                     
